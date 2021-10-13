@@ -1,0 +1,8 @@
+<script type="text/discourse-plugin" version="0.8">
+    api.modifyClass("component:latest-topic-list-item", {
+         showViewNumInStatus: Ember.computed(function() {
+            return settings.homepage_topic_status_type=='viewNum';
+          })
+       });
+ </script>
+
