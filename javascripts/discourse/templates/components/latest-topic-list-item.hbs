@@ -25,11 +25,7 @@
   </div>
 </div>
 <div class="topic-stats">
-    {{#if showViewNumInStatus}}
-        <div class="num views {{topic.viewsHeat}}">{{number topic.views numberKey="views_long"}}</div>
-    {{else}}
-        {{raw "list/posts-count-column" topic=topic tagName="div"}}
-    {{/if}}
+  <div class="num views {{topic.viewsHeat}}">{{number topic.views numberKey="views_long"}}</div>
   <div class="topic-last-activity">
     <a href={{topic.lastPostUrl}} title={{topic.bumpedAtTitle}}>{{format-date topic.bumpedAt format="tiny" noTitle="true"}}</a>
   </div>

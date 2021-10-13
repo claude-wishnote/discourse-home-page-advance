@@ -1,6 +1,0 @@
-homepage_topic_status_type:
-  default: viewNum
-  type: enum
-  choices:
-    - postCount
-    - viewNum
