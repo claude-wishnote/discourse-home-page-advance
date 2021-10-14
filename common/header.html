@@ -4,5 +4,11 @@
             return settings.homepage_topic_status_type=='viewNum';
           })
        });
- </script>
+
+    api.modifyClass("component:topic-list-item", {
+         showViewNumInStatus: Ember.computed(function() {
+            return settings.homepage_topic_status_type=='viewNum';
+          })
+       });
+</script>
 
